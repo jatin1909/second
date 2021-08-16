@@ -1,0 +1,287 @@
+
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color:#f1f2f6;
+	box-sizing: border-box;
+
+}
+.imge{
+	cursor: pointer;
+	padding: 20px;
+}
+
+.container{
+   position: relative;
+   padding: 20px 50px;
+}
+.search-box{
+	position: absolute;
+	top:6%;
+	right: 9%;
+	left: 16%;
+	transform: translate(-5%,-20% );
+
+}
+.input{
+	width: 400px;
+	border: 3px solid #fff;
+	padding: 15px 30px;
+	border-radius: 10px;
+	font-size: 18px;
+	position: absolute;
+	box-shadow: 2px 2px 1px 2px grey;
+} 
+.setup{
+	float: right;
+	font-size: 30px;
+	text-decoration: none;
+	position: relative;
+	
+}  
+.set-1{
+  padding: 20px;
+}
+
+a{
+	text-decoration: none;
+	justify-content: space-around;
+	color: black;	
+}
+.states{
+	margin: 20px;
+	padding: 30px;
+	font-size: 18px;
+	font-family: sans-serif;
+	position: absolute;
+}
+.red:hover{
+	color: red;
+}
+
+ hr{
+  border: 1px solid grey;
+  margin:22px;
+  width: 100%;
+  align-items: center;
+  
+  
+}
+.flex-cont{
+	display: flex;
+	width: all;
+	margin-left:220px;
+	justify-content: center;
+}
+
+.col-1{
+	padding: 2px;
+
+}
+.col-2{
+	padding:4px;
+	margin-right: 30px;
+}
+
+.dishes{
+	margin:20px;
+	margin-left: 220px;
+	padding-bottom: 50px;
+
+}
+.name{
+	font-size: 20px;
+
+}
+.title{
+	display: flex;
+	justify-content: space-around;
+	font-size: 30px;
+	margin-bottom:80px;
+	font-family: sans-serif;
+	margin-left: 170px;
+}
+
+.container-2{
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	padding-left: 200px;
+	padding-top: -290px;
+	margin-top: -70px;
+
+}
+.pop{
+	font-size: 20px;
+	justify-content: center;
+	justify-content: space-between;
+	margin: 20px;
+	width: 100px;
+	height: 30px;
+	background-color: #e6e7e8;
+	color: black;
+	border: 0.9px solid black;
+	border-radius: 9px;
+	text-align: center;
+}
+#mumbai{
+	padding: 40px;
+	font-size: 20px;
+}
+.wrapper{
+	margin: 10px;
+}
+
+.team{
+	display: flex;
+	text-align: center;
+	justify-content: center;
+
+
+}
+.team-1{
+	background: #fff;
+	margin: 5px;
+	margin-bottom: 50px;
+	justify-content: center;
+	width: 300px;
+	padding: 20px;
+	line-height: 10px;
+	color: #8e8b8b;
+	position: relative;
+	cursor: pointer;
+	border-radius: 5px;	
+}
+.team-1:hover{
+	box-shadow: 1px 1px 1px 1px grey;
+}
+
+h3{
+	font-size: 26px;
+	margin-top: 40px;
+	font-family: sans-serif;
+}
+
+.food-1{
+	color: #adaca6;
+	font-size: 14px;
+	text-transform: uppercase;
+	margin: 12px 0;
+	font-weight: 200px;
+	font-family: sans-serif;
+}
+.team-img{
+}
+
+.opn{
+	padding: 50px;
+	font-size: 30px;
+	font-family: sans-serif;
+}
+span{
+	padding: 30px;
+	margin: 30px;
+	font-size: 25px;
+	font-family: sans-serif;
+}
+
+.info{
+	padding: 50px;
+	font-family: sans-serif;
+	font-size: 17px;
+	color: #343d34;
+	justify-content: space-around;
+	color: #343d34;
+}
+.info-1{
+	color: #636e63;
+	margin: 6px;
+}
+.info-1:hover{
+	color: black;
+}
+.res{
+	padding: 50px;
+	font-family: sans-serif;
+	font-size: 17px;
+	justify-content: space-around;
+	padding-bottom:150px;
+}
+.res-1{
+	color: #636e63;
+	margin: 8px;
+}
+.res-1:hover{
+	color: black;
+}
+
+.brand-name{
+	font-size: 18px;
+	font-family: sans-serif;
+	padding: 50px;
+	word-spacing: 3px;
+    
+}
+
+.brand-1{
+	color: #636e63;
+	width: 30%;
+	margin: 30px;
+  }
+.brand-1:hover{
+   color: black;
+   background-color: #ebf0eb;
+}
+#nm-1{
+	padding: 50px;
+	font-family: sans-serif;
+	font-size: 30px;
+	margin: 16px;
+}
+
+h6{
+	padding: 29px;
+	font-size: 27px;
+	margin: 23px;
+}
+.cont-1{
+	display: flex;
+	background-color: #d3dbd5;
+}
+
+.h-1{
+    text-align: center;
+    font-size: 25px;
+    width: 100%;
+    justify-content: center;
+    margin-left: -39px;
+    font-family: sans-serif;
+    font-weight: 20px;
+
+
+}
+.chld-1{
+	
+	flex: 1;
+	margin-right: 20px;
+	padding: 20px;
+    
+}
+.n-1{
+	list-style-type: none;
+	margin: 14px;
+    color: #636e63;
+    font-size: 19px;
+    margin-top: -30px;
+}
+
+.fm-1{
+	display: inline-block;
+	text-transform: uppercase;
+
+}
+.last{
+	justify-content: center;
+	text-align: center;
+	text-transform: capitalize;
+}
